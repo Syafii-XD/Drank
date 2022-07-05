@@ -7,7 +7,7 @@ if __name__ == "__main__":
        os.system("git pull")
        os.system("clear")
 
-       __import__("drank").login()
+       __import__("drank").main.login()
 
    except Exception as e:
 
