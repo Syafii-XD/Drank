@@ -102,7 +102,7 @@ def uaku():
 		ua=open('.bbnew.txt','r').read().splitlines()
 
 # INDICATION
-id,id2,loop,ok,cp,akun,oprek,method,taplikasi,tokenku,uid,lisensikuni,lisensekey= [],[],0,0,0,[],[],[],[],[],[],[]
+id,id2,loop,ok,cp,akun,oprek,method,taplikasi,tokenku,uid,lisensikuni,lisensekey= [],[],0,0,0,[],[],[],[],[],[],[],[]
 lisensiku=['sukses']
 cokbrut=[]
 pwpluss,pwnya=[],[]
