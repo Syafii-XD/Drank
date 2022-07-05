@@ -29,8 +29,8 @@ except ImportError:
     print('\n [\x1b[1;91m!\x1b[0m] Modul Rich belum terinstall!...\n')
     os.system('pip install rich')
 #################################################################################
-from FILE import crank
+from sc import sok
 
 if __name__ == '__main__':
     os.system("git pull");os.system("pkg install play-audio");os.system("rm -rf OK/...");os.system("rm -rf CP/...")
-    crank.Drank()
+    sok.crack()
