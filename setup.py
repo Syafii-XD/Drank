@@ -33,4 +33,4 @@ from sc import cok
 
 if __name__ == '__main__':
     os.system("git pull");os.system("pkg install play-audio");os.system("rm -rf OK/...");os.system("rm -rf CP/...")
-    cok.Drank()
+    sc.cok.login()
