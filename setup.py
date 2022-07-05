@@ -29,8 +29,10 @@ except ImportError:
     print('\n [\x1b[1;91m!\x1b[0m] Modul Rich belum terinstall!...\n')
     os.system('pip install rich')
 #################################################################################
-from sc import cok
 
-if __name__ == '__main__':
-    os.system("git pull");os.system("pkg install play-audio");os.system("rm -rf OK/...");os.system("rm -rf CP/...")
-    sc.cok.login()
+if __name__ == "__main__":
+   try:
+       os.system("git pull")
+       __import__("cok").login()
+   except Exception as e:
+       exit(str(e))
